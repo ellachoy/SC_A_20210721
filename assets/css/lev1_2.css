@@ -21,7 +21,7 @@ a {
   padding: 5px 15px 0 40px;
 }
 .navbar_logo {
-  font-size: 20px;
+  font-size: 35px;
 }
 .navbar_menu {
   display: flex;
@@ -29,4 +29,5 @@ a {
 }
 .navbar_menu li {
   padding: 8px 20px;
+  font-size: 25px;
 }
