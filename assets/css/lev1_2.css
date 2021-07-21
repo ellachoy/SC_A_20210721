@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1560703649-e3055f28bcf8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    center/cover no-repeat;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Heebo", sans-serif;
+}
+
+.navbar {
+  background: rgb(98, 126, 184);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px 0 40px;
+}
+.navbar_logo {
+  font-size: 20px;
+}
+.navbar_menu {
+  display: flex;
+  list-style: none;
+}
+.navbar_menu li {
+  padding: 8px 20px;
+}
